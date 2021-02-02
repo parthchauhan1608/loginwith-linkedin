@@ -7,7 +7,7 @@ const express = require('express');
 const passport = require('passport');
 const { Strategy } = require('passport-linkedin-oauth2');
 const { LINKEDIN_API_KEY, LINKEDIN_SECRET_KEY, SESSION_SECRET } =  process.env;
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const app = express();
 const routes = require('./routes');
 
